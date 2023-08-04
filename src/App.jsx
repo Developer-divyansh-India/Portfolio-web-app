@@ -26,26 +26,6 @@ import TextField from '@mui/material/TextField';
 import SendIcon from '@mui/icons-material/Send';
 import './App.css';
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCKR0W9QYPUn_tiWO9S6vMHX6mungVp3YQ",
-  authDomain: "portfolio-in-react.firebaseapp.com",
-  projectId: "portfolio-in-react",
-  storageBucket: "portfolio-in-react.appspot.com",
-  messagingSenderId: "146107877498",
-  appId: "1:146107877498:web:645b0ee23a85859d6193c3",
-  measurementId: "G-9MR4Q8BV2F"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 
 function CustomTabPanel(props) {
